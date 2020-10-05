@@ -2,20 +2,24 @@
 public class EuclidsAlgorithm {
 
 	public static void main(String[] args) {
-		 @Test
-		    public void firstTest(){
+		 
+		    public class EuclidsAlgorithm (){
 		        EuclidsAlgorithm ea = new EuclidsAlgorithm();
-		        int expected = ea.gcd(78, 36);
-		        int actual = 6;
-		        Assert.assertEquals(expected, actual);
+		        int (int a, int b){
+		        int c;
+		        while (b != 0) {
+		        	c = a%b;
+		        	a=b;
+		        	b=c;
+		        }
+		        return a;
 		    }
 
-		    @Test
-		    public void secondTest(){
-		        EuclidsAlgorithm ea = new EuclidsAlgorithm();
-		        int expected = ea.gcd(225, 40);
-		        int actual = 5;
-		        Assert.assertEquals(expected, actual);
+		    
+		    public static void main (String[] args) {
+		    	System.out.println("The GCF is " a)
+		    }
+		        
 		    }
 
 		
